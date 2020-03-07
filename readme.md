@@ -1,12 +1,15 @@
 ## 声纹特征提取工具
-
-可直接从原始语音(wav文件)中提取说话人特征，保存为npy文件。输入语音为wav格式，16k采样率，16bit位深。
-
 基于VGG-SR：<https://github.com/WeidiXie/VGG-Speaker-Recognition>
 
 参考文献：[Utterance-level Aggregation For Speaker Recognition In The Wild (Xie et al., ICASSP 2019) (Oral)](https://arxiv.org/pdf/1902.10107.pdf).
 
-#### Dependencies:
+### 功能
+1.可直接从原始语音(wav文件)中提取说话人特征，保存为npy文件。输入语音为wav格式，16k采样率，16bit位深。
+
+2.输入两条语音，判断是否属于同一个说话人。
+
+
+### Dependencies:
 
 - windows/linux
 
@@ -16,7 +19,7 @@
 - [Keras 2.2.4](https://keras.io/)
 - [Tensorflow 1.8.0](https://www.tensorflow.org/)
 
-#### 使用方法
+### 使用方法
 
 见 `demo.py`
 
